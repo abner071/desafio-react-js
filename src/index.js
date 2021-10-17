@@ -3,9 +3,13 @@ import ReactDOM from 'react-dom';
 import './styles/global.css';
 import App from './App';
 
+import { DataProvider } from './hooks/data';
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <DataProvider>
+      <App />
+    </DataProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

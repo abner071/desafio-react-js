@@ -50,4 +50,8 @@
   background-color: #F0F0F0;
   font-weight: bold;
 }
+
+.cursor-pointer {
+  cursor: pointer;
+}
     
